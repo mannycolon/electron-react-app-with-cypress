@@ -9,6 +9,8 @@
     "build": "webpack -p",
     "webpack:dev": "webpack -d",
     "webpack:watch": "webpack --watch",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manny Colon <colonmanuel7@gmail.com> (http://github.com/mannycolon)",
