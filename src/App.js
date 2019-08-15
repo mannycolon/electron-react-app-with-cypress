@@ -18,6 +18,7 @@ export default function App() {
           <label htmlFor="email">
             Email
             <input
+              id="email-input"
               type="email"
               name="email"
               placeholder="email"
@@ -27,13 +28,14 @@ export default function App() {
           <label htmlFor="password">
             Password
             <input
+              id="password-input"
               type="password"
               name="password"
               placeholder="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}/>
           </label>
-          <button type="submit">Sign In!</button>
+          <button type="submit" id="sign_in_button">Sign In!</button>
         </form>
       :
         <button
