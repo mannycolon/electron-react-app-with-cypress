@@ -1,7 +1,7 @@
 {
-  "name": "electron-react-webpack-boilerplate",
+  "name": "electron-react-app-with-cypress",
   "version": "0.1.0",
-  "description": "Boilerplate for Electron React project with webpack bundling",
+  "description": "Example of using Cypress with Electron React Apps",
   "main": "src/electron/main.js",
   "scripts": {
     "start": "electron .",
@@ -29,6 +29,7 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "dependencies": {
+    "cypress": "^3.4.1",
     "electron": "^6.0.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
