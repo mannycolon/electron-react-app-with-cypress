@@ -1,3 +1,3 @@
-# electron-react-webpack-boilerplate
+# electron-react-app-with-cypress
 
-Boilerplate for Electron React project with webpack bundling
+Example of using Cypress with Electron React Apps
