@@ -5,6 +5,11 @@ describe('My First Test', function() {
     cy.visit('src/electron/index.html').then(function (win) {
       this.win = win;
     });
+
+    // Using added command
+    // cy.visitIndex().then(function (win) {
+    //   this.win = win;
+    // });
   });
   it('Gets, types and asserts', function() {
     const email = 'fake@email.com';
