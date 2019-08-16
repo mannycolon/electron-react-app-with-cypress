@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
 describe('My First Test', function() {
-  beforeEach(() => {
+  before(() => {
     cy.visit('src/electron/index.html').then(function (win) {
       this.win = win;
     });
@@ -11,6 +11,7 @@ describe('My First Test', function() {
     //   this.win = win;
     // });
   });
+
   it('Gets, types and asserts', function() {
     const email = 'fake@email.com';
     cy.contains('Go to Login').click();
