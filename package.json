@@ -28,7 +28,7 @@
     "eslint": "^4.15.0",
     "eslint-plugin-react": "^7.5.1",
     "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.6",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-middleware": "^3.7.0",
     "webpack-hot-middleware": "^2.25.0"
   },
